@@ -17,6 +17,8 @@
 
 **Endpoint:** `GET /api/articles`
 
+_note: In a real API, we'd add auth middleware to check if the user is logged in. For this demo, we skip that. also this project does not require it_
+
 **Params:** `q`, `max`, `category`, `author`, `from`, `to`
 
 **Example:**
